@@ -1,0 +1,38 @@
+.filter-container{
+    height: fit-content;
+    background: #080808;
+    color: white;
+    text-align: center;
+    
+}
+.container {
+    text-align: center;
+  }
+  
+  /* Filter button styles */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  p {
+   
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Additional styling for interactivity */
+  select:hover,
+  select:focus {
+    border-color: #3498db;
+  }
+  
+  select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+  }
